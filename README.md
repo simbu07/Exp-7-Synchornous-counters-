@@ -91,7 +91,7 @@ RegisterNumber:  212221230101
 
 ```
 
-# Program for up counter:
+### Program for up counter:
 ```
 module uc(clk,A);
 input clk;
@@ -107,7 +107,7 @@ endmodule
 
 ```
 
-# Program for down counter:
+### Program for down counter:
 ```
 module dc(clk,A);
 input clk;
