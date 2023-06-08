@@ -83,18 +83,16 @@ Get the timing diagram and RTL realization diagram for respective Counters.
 
 ### PROGRAM:
 
- verilog
+ ```
 
 Program for counters and verify its truth table in quartus using Verilog programming.
 Developed by: Silambarasan K
 RegisterNumber:  212221230101
 
-
-
-verilog
+```
 
 # Program for up counter:
-
+```
 module uc(clk,A);
 input clk;
 output reg [3:0]A;
@@ -107,12 +105,10 @@ A[0]=1^A[0];
 end
 endmodule
 
-
-
-
-verilog
+```
 
 # Program for down counter:
+```
 module dc(clk,A);
 input clk;
 output reg [3:0]A;
@@ -124,7 +120,7 @@ A[1]=(~A[0])^A[1];
 A[0]=1^A[0];
 end
 endmodule
-
+```
 
 
 ### RTL LOGIC UP COUNTER:
